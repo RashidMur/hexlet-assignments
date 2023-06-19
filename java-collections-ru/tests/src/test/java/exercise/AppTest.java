@@ -22,8 +22,8 @@ class AppTest {
         numbers.add(4);
     }
 
-    @BeforeEach
-    void emptyList() {
+    @BeforeAll
+    static void emptyList() {
         emptyNumbers = new ArrayList<>();
     }
 
